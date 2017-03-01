@@ -14,7 +14,7 @@ functions:
           path: pong
           method: get
   currentTime:
-    handler: handler.endpoint
+    handler: time/handler.endpoint
     events:
       - http:
           path: ping
